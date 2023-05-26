@@ -12,7 +12,7 @@ public class Exercise2 {
         for(int i = 0; i < x.length-1; i++) {
             for(int k = i+1; k<x.length; k++) {
                 if(x[i]+x[k]==y){
-                    System.out.println(x[i]+" + "+x[k]+" = "+y+", found in the index : "+i+" and "+k);
+                    System.out.println(x[i]+" + "+x[k]+" = "+y+", found in the indices : "+i+" and "+k);
                 }
             }
         }

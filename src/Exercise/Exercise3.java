@@ -10,17 +10,14 @@ public class Exercise3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Add 5 numbers");
 
-        int[]x = new int[5];
-        for(int i = 0; i<5; i++){
-            x[i]=scanner.nextInt();
-        }
-
+        int x = 0;
         int sum = 0;
-        for(int w : x){
-            if(w>5 && w<10){
+        for(int i = 0; i<5; i++){
+            x=scanner.nextInt();
+            if(x>5 && x<10){
                 continue;
             }
-            sum+=w;
+            sum+=x;
         }
 
         System.out.println(sum);
