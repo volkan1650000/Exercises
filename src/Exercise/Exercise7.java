@@ -3,6 +3,9 @@ package Exercise;
 import java.util.Arrays;
 
 public class Exercise7 {
+
+    //The code that shows the max, the second max and the min element in an integer array
+
     public static void main(String[] args) {
         int[]x =  {100,10001,-90,845,8787,898,0,1};
         Arrays.sort(x);
